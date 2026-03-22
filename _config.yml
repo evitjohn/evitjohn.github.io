@@ -6,6 +6,10 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Evit
 middle_name:
 last_name: John
+github_username: evitjohn        # ← add here
+linkedin_username: evitjohn      # ← add here
+scholar_userid: vS2Qqj4AAAAJ    # ← add here
+orcid_id: 0000-0002-4537-1142   # ← add here
 contact_note: >
   Feel free to reach out about research collaborations, cancer genomics methods, or opportunities in computational biology.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
