@@ -440,16 +440,6 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "projects-multiregion-icca",
-          title: 'Multiregion iCCA',
-          description: "Genomic and spatial transcriptomic heterogeneity of intrahepatic cholangiocarcinoma",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/icca/";
-            },},{id: "projects-splat",
-          title: 'SPLAT',
-          description: "Novel single-cell copy number calling method for tagmentation-based scDNA-seq",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/splat/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
