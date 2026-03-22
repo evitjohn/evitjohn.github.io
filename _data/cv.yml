@@ -1,175 +1,144 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Evit John
-    - name: Credentials
-      value: BDS, MPH, PhD Candidate
-    - name: Location
-      value: Houston, Texas
-    - name: Email
-      value: evitrajan@gmail.com
+cv:
+  name: Evit John
+  location: Houston, Texas
+  email: evitrajan@gmail.com
+  phone:
+  website: https://evitjohn.github.io
+  social_networks:
+    - network: LinkedIn
+      username: evitjohn
+    - network: GitHub
+      username: evitjohn
+    - network: ORCID
+      username: 0000-0002-4537-1142
+    - network: Google Scholar
+      username: vS2Qqj4AAAAJ
 
-- title: Education
-  type: time_table
-  contents:
-    - title: Doctor of Philosophy (PhD) — Biostatistics
-      institution: University of Texas Health Science Center at Houston (UTHealth), School of Public Health
-      year: 2021 – Present
-      description:
-        - Dissertation focused on computational methods for single-cell copy number analysis in cancer genomics
-        - Graduate Research Assistant, Van Loo Lab, MD Anderson Cancer Center
-    - title: Master of Public Health (MPH)
-      institution: University of Texas Health Science Center at Houston (UTHealth), School of Public Health
-      year: 2018 – 2020
-      description:
-        - Delta Omega Honor Society inductee
-        - Dr. David W. Martin Memorial Scholarship recipient
-        - Schull Institute Summer Scholar, 2019
-    - title: Bachelor of Dental Sciences (BDS)
-      institution: Manipal College of Dental Sciences (MCODS), Manipal University, India
-      year: 2011 – 2016
-      description:
-        - President, MCODS Student Council (2015–2016)
+  sections:
+    summary:
+      - "PhD Candidate in Biostatistics at UTHealth School of Public Health and Graduate Research Assistant at the Van Loo Lab, MD Anderson Cancer Center. My research focuses on cancer genomics, computational biology, and clinical translation — developing statistical and computational methods to understand tumor evolution, intratumoral heterogeneity, and clonal dynamics across multiple cancer types."
 
-- title: Research Experience
-  type: time_table
-  contents:
-    - title: Graduate Research Assistant
-      institution: Van Loo Lab, Department of Genetics, MD Anderson Cancer Center, Houston, TX
-      year: May 2022 – Present
-      description:
-        - Developing SPLAT, a novel single-cell copy number variant (CNV) calling method for tagmentation-based scDNA-seq
-        - Building and optimizing computational pipelines in R, Python, and Snakemake for bulk and single-cell sequencing data across ovarian, oral, renal, lung, and biliary cancers
-        - Integrating multi-omic datasets (WES, RNA-seq, spatial transcriptomics) to characterize molecular drivers of cancer progression
-        - Applying statistical frameworks for clinical risk stratification using tumor genomic profiles
-    - title: Research Data Coordinator
-      institution: Department of Surgical Oncology, MD Anderson Cancer Center, Houston, TX
-      year: Nov 2020 – May 2022
-      description:
-        - Curated and maintained the Medullary Thyroid Carcinoma Registry (EPIC, REDCap)
-        - Designed epidemiological investigations using registry data to support drug research and clinical decision-making
-        - Mentored graduate students in clinical data management best practices
-    - title: Research Intern — Practicum Volunteer
-      institution: Oral Health Program, Texas Health Institute, Austin, TX
-      year: Mar 2020 – Aug 2020
-      description:
-        - Designed and implemented a survey of oral health care providers assessing HPV vaccine knowledge and attitudes
-        - Developed intervention strategies and educational materials for providers and parents
-    - title: Graduate Research Assistant
-      institution: Department of Surgical Oncology, MD Anderson Cancer Center, Houston, TX
-      year: Jan 2019 – Aug 2020
-      description:
-        - Supported completion and updating of the Medullary Thyroid Carcinoma Registry
-        - Managed data abstraction from EPIC and REDCap
+    education:
+      - institution: University of Texas Health Science Center at Houston (UTHealth)
+        area: Biostatistics
+        degree: PhD
+        start_date: 2021
+        end_date: present
+        highlights:
+          - "School of Public Health"
+          - "Graduate Research Assistant, Van Loo Lab, MD Anderson Cancer Center"
+          - "Focus: computational methods for single-cell copy number analysis in cancer genomics"
+      - institution: University of Texas Health Science Center at Houston (UTHealth)
+        area: Public Health
+        degree: MPH
+        start_date: 2018
+        end_date: 2020
+        highlights:
+          - "School of Public Health"
+          - "Delta Omega Honor Society inductee"
+          - "Dr. David W. Martin Memorial Scholarship"
+          - "Schull Institute Summer Scholar, 2019"
+      - institution: Manipal College of Dental Sciences, Manipal University
+        area: Dental Sciences
+        degree: BDS
+        start_date: 2011
+        end_date: 2016
+        highlights:
+          - "Manipal, India"
+          - "President, MCODS Student Council (2015-2016)"
 
-- title: Teaching Experience
-  type: time_table
-  contents:
-    - title: Teaching Assistant — PH1710 Intermediate Biostatistics
-      institution: UTHealth School of Public Health, Houston, TX
-      year: May 2022 – Aug 2022
-      description:
-        - Supported instruction for 35 students, graded coursework, and led TA sessions
-    - title: Lecturer, Department of Oral and Maxillofacial Surgery
-      institution: Manipal College of Dental Sciences, Manipal University, India
-      year: May 2017 – Aug 2018
-      description:
-        - Taught clinical skills and supervised three small-scale student research projects
-        - Produced educational videos on medical emergencies and suturing techniques
-        - Developed a novel questionnaire-based protocol for TMJ disorder assessment
+    experience:
+      - company: MD Anderson Cancer Center
+        position: Graduate Research Assistant, Van Loo Lab
+        location: Houston, TX
+        start_date: 2022-05
+        end_date: present
+        highlights:
+          - "Developing SPLAT, a novel single-cell CNV calling method for tagmentation-based scDNA-seq"
+          - "Building computational pipelines in R, Python, and Snakemake for bulk and single-cell sequencing data"
+          - "Integrating multi-omic datasets (WES, RNA-seq, spatial transcriptomics) across multiple cancer types"
+          - "Applying statistical frameworks for clinical risk stratification using tumor genomic profiles"
+      - company: MD Anderson Cancer Center
+        position: Research Data Coordinator, Department of Surgical Oncology
+        location: Houston, TX
+        start_date: 2020-11
+        end_date: 2022-05
+        highlights:
+          - "Curated and maintained the Medullary Thyroid Carcinoma Registry (EPIC, REDCap)"
+          - "Designed epidemiological investigations using registry data to support drug research"
+          - "Mentored graduate students in clinical data management best practices"
+      - company: Texas Health Institute
+        position: Research Intern, Oral Health Program
+        location: Austin, TX
+        start_date: 2020-03
+        end_date: 2020-08
+        highlights:
+          - "Designed a survey of oral health care providers assessing HPV vaccine knowledge and attitudes"
+          - "Developed intervention strategies and educational materials for providers and parents"
+      - company: MD Anderson Cancer Center
+        position: Graduate Research Assistant, Department of Surgical Oncology
+        location: Houston, TX
+        start_date: 2019-01
+        end_date: 2020-08
+        highlights:
+          - "Supported updating of the Medullary Thyroid Carcinoma Registry"
+          - "Managed data abstraction from EPIC and REDCap"
+      - company: UTHealth School of Public Health
+        position: Teaching Assistant, PH1710 Intermediate Biostatistics
+        location: Houston, TX
+        start_date: 2022-05
+        end_date: 2022-08
+        highlights:
+          - "Supported instruction for 35 students, graded coursework, led TA sessions"
+      - company: Manipal College of Dental Sciences
+        position: Lecturer, Department of Oral and Maxillofacial Surgery
+        location: Manipal, India
+        start_date: 2017-05
+        end_date: 2018-08
+        highlights:
+          - "Taught clinical skills, supervised three student research projects"
+          - "Produced educational videos on medical emergencies and suturing techniques"
 
-- title: Grants
-  type: time_table
-  contents:
-    - title: Head and Neck Premalignant and Malignant Tumors
-      year: Current
-      description: UTMDACC — Precancer Atlas Head & Neck Initiative
-    - title: Multiregional Cholangiocarcinoma
-      year: Current
-      description: Department of Defense RCRP Idea Award & NCI-R21
-    - title: A Novel Natural History Study of Medullary Thyroid Carcinoma
-      year: Past
-      description: NIH R01 — Incorporating the patient perspective to inform advanced disease management
+    grants:
+      - bullet: "[Current] Head and Neck Premalignant and Malignant Tumors -- UTMDACC Precancer Atlas Head & Neck Initiative"
+      - bullet: "[Current] Multiregional Cholangiocarcinoma -- Department of Defense RCRP Idea Award & NCI-R21"
+      - bullet: "[Past] A Novel Natural History Study of Medullary Thyroid Carcinoma -- NIH R01"
 
-- title: Provisional Patents
-  type: list
-  contents:
-    - "Specialized electronic toothbrushes for patients with cerebral palsy and other motor dysfunctions (Patent No. 201841016406)"
-    - "Specialized device for debridement of pericoronal flap"
+    publications:
+      - bullet: "John ER et al. Reconstructing oral cavity tumor evolution through brush biopsy. Scientific Reports 14(1):22591, 2024."
+      - bullet: "John ER et al. Genomic and spatial transcriptomic heterogeneity of multi-region cholangiocarcinoma. Journal of Hepatology (in preparation)."
+      - bullet: "Morris B, John ER et al. Tracking tumor evolution under treatment. Cancer Research (in preparation)."
+      - bullet: "Adzrago D, ..., John ER et al. Kratom use categories and mental health symptoms during COVID-19. Drug and Alcohol Dependence 239:109605, 2022."
+      - bullet: "Kapur N, ..., John ER. Quality of life in patients surgically treated for potentially malignant oral lesions. Indian Journal of Cancer 58(3):371-377, 2021."
+      - bullet: "Smriti K, John E et al. Intra-lesional medicaments for intra-osseous lesions: systematic review. J Int Soc Prev Community Dent 10(1):36, 2020."
+      - bullet: "Nivedita S, John ER et al. Prophylactic extraction of non-impacted third molars. Minerva Stomatologica 68(6):297-302, 2019."
+      - bullet: "John ER et al. Micro crack propagation after Reciproc and Waveone Gold systems. Int J Clin Dent 11:201-208, 2018."
 
-- title: Peer Review
-  type: list
-  contents:
-    - "<em>Cell Reports Medicine</em> — Wils LJ et al. (genetic progression of cancer by longitudinal analysis of oral lesions)"
-    - "<em>Journal of Pathology</em> — JB Poell et al. (genetic progression of cancer)"
+    patents:
+      - bullet: "Specialized electronic toothbrushes for patients with cerebral palsy and motor dysfunctions (Provisional Patent No. 201841016406)"
+      - bullet: "Specialized device for debridement of pericoronal flap"
 
-- title: Awards and Honors
-  type: time_table
-  contents:
-    - year: 2020
-      items:
-        - Delta Omega Honor Society, UTHealth School of Public Health
-        - Dr. David W. Martin Memorial Scholarship, UTHealth School of Public Health
-    - year: 2019
-      items:
-        - Schull Institute Summer Scholar
-    - year: 2016
-      items:
-        - Provenance, Manipal University Technology Business Incubator (MUTBI) Business Plan Competition
-    - year: 2015
-      items:
-        - Best Poster Award, 1st International Conclave of Health Technical Research
-        - Student Leadership Program, International Dental Exhibition and Meet
-        - Entrepreneurship Awareness Camp, Manipal Academy of Higher Education
-    - year: 2013
-      items:
-        - Keynote Speaker, International Youth Summit, Yuva Varsha
-    - year: 2012
-      items:
-        - Leadership Workshop for Student Leaders of Manipal
-    - year: 2011
-      items:
-        - Leadership Training Camp, M.R. Pai Foundation
+    skills:
+      - label: Programming
+        details: "R (tidyverse, Bioconductor, Rcpp/C++, tidymodels), Python, Snakemake, Bash"
+      - label: Bioinformatics
+        details: "scDNA-seq CNV calling, bulk WES/RNA-seq, spatial transcriptomics, Mutect2, PyClone, ASCAT, CONIPHER"
+      - label: Statistics
+        details: "Bayesian inference, survival analysis, mixed models, machine learning (random forests, XGBoost)"
+      - label: HPC & Dev
+        details: "LSF/SLURM, Git/GitHub, Docker"
+      - label: Clinical Data
+        details: "EPIC, REDCap, registry curation"
 
-- title: Leadership
-  type: time_table
-  contents:
-    - title: UTHealth Student Inter-council
-      year: 2018 – 2020
-      description:
-        - Historian, School of Public Health Representative
-        - University Academic Council & UT System Student Advisory Council
-    - title: President, MCODS Student Council
-      year: 2015 – 2016
-    - title: General Secretary, Manipal International Network of Education (MINE)
-      year: 2015 – 2016
-    - title: National Officer of Medical Education, Medical Students Association of India (MSA-I)
-      year: 2013 – 2014
-    - title: Student Representative, MCODS Student Council
-      year: 2011 – 2012
+    awards:
+      - bullet: "Delta Omega Honor Society, UTHealth School of Public Health, 2020"
+      - bullet: "Dr. David W. Martin Memorial Scholarship, UTHealth, 2020"
+      - bullet: "Schull Institute Summer Scholar, 2019"
+      - bullet: "Best Poster Award, 1st International Conclave of Health Technical Research, 2015"
+      - bullet: "Keynote Speaker, International Youth Summit, Yuva Varsha, 2013"
 
-- title: Skills
-  type: nested_list
-  contents:
-    - title: Programming & Computation
-      items:
-        - R (tidyverse, Bioconductor, Rcpp/C++, tidymodels)
-        - Python (pandas, scikit-learn, scipy)
-        - Snakemake, Bash, HPC (LSF/SLURM)
-        - Git / GitHub
-    - title: Bioinformatics
-      items:
-        - Single-cell DNA-seq (copy number calling, clonal deconvolution)
-        - Bulk WES / RNA-seq analysis
-        - Spatial transcriptomics
-        - Somatic variant calling (Mutect2, PyClone, ASCAT, CONIPHER)
-    - title: Statistics & Methods
-      items:
-        - Bayesian inference, survival analysis, mixed models
-        - Machine learning (random forests, XGBoost, cross-validation)
-        - Epidemiological study design
-    - title: Clinical & Data Management
-      items:
-        - EPIC, REDCap
-        - Registry curation and longitudinal data management
+    leadership:
+      - bullet: "UTHealth Student Inter-council: Historian, SPH Representative, University Academic Council (2018-2020)"
+      - bullet: "President, MCODS Student Council, Manipal University (2015-2016)"
+      - bullet: "General Secretary, Manipal International Network of Education (2015-2016)"
+      - bullet: "National Officer of Medical Education, Medical Students Association of India (2013-2014)"
