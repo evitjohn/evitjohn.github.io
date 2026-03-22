@@ -2,33 +2,28 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: >
+  PhD Candidate, Biostatistics · <a href="https://www.uth.edu/sph/" target="_blank">UTHealth School of Public Health</a><br>
+  Graduate Research Assistant · <a href="https://www.mdanderson.org/research/departments-labs-institutes/labs/van-loo-laboratory.html" target="_blank">Van Loo Lab, MD Anderson Cancer Center</a> · Houston, Texas
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: false
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Houston, Texas</p>
+    <p><a href="mailto:evitrajan@gmail.com">evitrajan@gmail.com</a></p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
-
-announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
-
-latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+selected_papers: true
+social: true
+latest_posts: false
+news: true
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a PhD Candidate in Biostatistics at the [UTHealth School of Public Health](https://www.uth.edu/sph/) and a Graduate Research Assistant in the [Van Loo Lab](https://www.mdanderson.org/research/departments-labs-institutes/labs/van-loo-laboratory.html) at MD Anderson Cancer Center.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My research sits at the intersection of **cancer genomics**, **computational biology**, and **clinical translation**. I develop and apply statistical and computational methods to understand how tumors evolve, how clonal populations emerge and compete, and how intratumoral heterogeneity shapes cancer progression and treatment resistance.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My current work focuses on three areas. First, I am developing **SPLAT**, a novel single-cell copy number variant (CNV) calling method for tagmentation-based scDNA-seq that resolves subclonal architecture at high resolution. Second, I apply **multi-region sequencing and spatial transcriptomics** to reconstruct tumor phylogenies and map immune microenvironment heterogeneity — with active projects in intrahepatic cholangiocarcinoma (iCCA) and oral cancer. Third, I build and maintain **HPC-based analysis pipelines** in R, Python, and Snakemake, including the [`processBam`](https://github.com/VanLoo-lab/Splat) R/Rcpp package for BAM-level signal extraction.
+
+Before my PhD, I completed an MPH at UTHealth, a BDS at Manipal University (India), and worked as a Research Data Coordinator in the Department of Surgical Oncology at MD Anderson, where I curated the Medullary Thyroid Carcinoma Registry. I am a member of the **Delta Omega Honor Society** and hold a provisional patent for a specialized assistive toothbrush for patients with motor dysfunctions.
