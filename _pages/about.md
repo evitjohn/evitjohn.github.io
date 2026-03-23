@@ -9,7 +9,7 @@ subtitle: >
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false
+  image_circular: true
   more_info: >
     <p>Houston, Texas</p>
     <p><a href="mailto:evitrajan@gmail.com">evitrajan@gmail.com</a></p>
@@ -17,7 +17,7 @@ profile:
 selected_papers: true
 social: true
 latest_posts: false
-news: true
+news: false
 ---
 
 I am a PhD Candidate in Biostatistics at the [UTHealth School of Public Health](https://www.uth.edu/sph/) and a Graduate Research Assistant in the [Van Loo Lab](https://www.mdanderson.org/research/departments-labs-institutes/labs/van-loo-laboratory.html) at MD Anderson Cancer Center.
