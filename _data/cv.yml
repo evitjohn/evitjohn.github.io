@@ -1,9 +1,12 @@
 cv:
   name: Evit John
-  location: Houston, Texas
+  label: PhD Candidate, Biostatistics | Cancer Genomics & Computational Biology
   email: evitrajan@gmail.com
-  phone:
-  website: https://evitjohn.github.io
+  location: Houston, TX
+  image: ""
+  summary: >
+    PhD Candidate in Biostatistics at UTHealth School of Public Health and Graduate Research Assistant at the Van Loo Lab, MD Anderson Cancer Center. My research focuses on cancer genomics, computational biology, and clinical translation — developing statistical and computational methods to understand tumor evolution, intratumoral heterogeneity, and clonal dynamics across multiple cancer types.
+
   social_networks:
     - network: LinkedIn
       username: evitjohn
@@ -15,22 +18,22 @@ cv:
       username: vS2Qqj4AAAAJ
 
   sections:
-    summary:
-      - "PhD Candidate in Biostatistics at UTHealth School of Public Health and Graduate Research Assistant at the Van Loo Lab, MD Anderson Cancer Center. My research focuses on cancer genomics, computational biology, and clinical translation — developing statistical and computational methods to understand tumor evolution, intratumoral heterogeneity, and clonal dynamics across multiple cancer types."
-
     Education:
       - institution: University of Texas Health Science Center at Houston (UTHealth)
+        location: Houston, TX
         area: Biostatistics
-        degree: PhD
+        studyType: PhD
         start_date: 2021
         end_date: present
         highlights:
           - "School of Public Health"
           - "Graduate Research Assistant, Van Loo Lab, MD Anderson Cancer Center"
           - "Focus: computational methods for single-cell copy number analysis in cancer genomics"
+
       - institution: University of Texas Health Science Center at Houston (UTHealth)
+        location: Houston, TX
         area: Public Health
-        degree: MPH
+        studyType: MPH
         start_date: 2018
         end_date: 2020
         highlights:
@@ -38,13 +41,14 @@ cv:
           - "Delta Omega Honor Society inductee"
           - "Dr. David W. Martin Memorial Scholarship"
           - "Schull Institute Summer Scholar, 2019"
+
       - institution: Manipal College of Dental Sciences, Manipal University
+        location: Manipal, India
         area: Dental Sciences
-        degree: BDS
+        studyType: BDS
         start_date: 2011
         end_date: 2016
         highlights:
-          - "Manipal, India"
           - "President, MCODS Student Council (2015-2016)"
 
     Experience:
@@ -54,89 +58,219 @@ cv:
         start_date: 2022-05
         end_date: present
         highlights:
-          - "Developing SPLAT, a novel single-cell CNV calling method for tagmentation-based scDNA-seq"
-          - "Building computational pipelines in R, Python, and Snakemake for bulk and single-cell sequencing data"
-          - "Integrating multi-omic datasets (WES, RNA-seq, spatial transcriptomics) across multiple cancer types"
-          - "Applying statistical frameworks for clinical risk stratification using tumor genomic profiles"
+          - "Develop and optimize computational pipelines in R, Python, and Snakemake for analysis of bulk and single-cell DNA sequencing and RNA-seq data across multiple cancer types, including ovarian, oral, renal, lung, and biliary cancers"
+          - "Pioneering a novel single-cell copy number variant (CNV) detection method to resolve intratumoral heterogeneity and inform models of cancer evolution and clonal dynamics"
+          - Integrate multi-omic datasets to characterize how molecular alterations drive cancer progression and metastasis, linking genomic features to clinical phenotypes and patient outcomes"
+          - Apply statistical and computational frameworks to clinical risk stratification using tumor genomic profiles, translating biological findings into clinically actionable insights"
+          - Collaborate within a multidisciplinary research team while independently managing concurrent analysis workflows across diverse cancer cohorts"
+
       - company: MD Anderson Cancer Center
         position: Research Data Coordinator, Department of Surgical Oncology
         location: Houston, TX
         start_date: 2020-11
         end_date: 2022-05
         highlights:
-          - "Curated and maintained the Medullary Thyroid Carcinoma Registry (EPIC, REDCap)"
-          - "Designed epidemiological investigations using registry data to support drug research"
-          - "Mentored graduate students in clinical data management best practices"
-      - company: Texas Health Institute
-        position: Research Intern, Oral Health Program
-        location: Austin, TX
-        start_date: 2020-03
-        end_date: 2020-08
-        highlights:
-          - "Designed a survey of oral health care providers assessing HPV vaccine knowledge and attitudes"
-          - "Developed intervention strategies and educational materials for providers and parents"
+          - "Curated and maintained the Medullary Thyroid Carcinoma Registry, managing end-to-end data abstraction from clinical systems (EPIC, REDCap) and ensuring data integrity across patient records for longitudinal research use"
+          - "Designed and executed epidemiological investigations using registry data to support drug research and clinical decision-making, producing routine analytical reports for stakeholder review"
+          - "Translated complex clinical and genomic registry data into structured datasets, enabling downstream statistical analysis and population-level insights into Medullary Thyroid Cancer"
+          - "Communicated research findings through presentations to cross-functional audiences including clinicians, researchers, and patients, demonstrating strong scientific communication skills"
+          - "Trained and mentored graduate students in clinical data management best practices, supporting team-wide research productivity"
+
       - company: MD Anderson Cancer Center
         position: Graduate Research Assistant, Department of Surgical Oncology
         location: Houston, TX
         start_date: 2019-01
         end_date: 2020-08
         highlights:
-          - "Supported updating of the Medullary Thyroid Carcinoma Registry"
+          - "Supported completion and updating of the Medullary Thyroid Carcinoma Registry"
           - "Managed data abstraction from EPIC and REDCap"
+
       - company: UTHealth School of Public Health
         position: Teaching Assistant, PH1710 Intermediate Biostatistics
         location: Houston, TX
         start_date: 2022-05
         end_date: 2022-08
         highlights:
-          - "Supported instruction for 35 students, graded coursework, led TA sessions"
+          - "Supported instruction for 35 students, graded coursework, and led TA sessions"
+
       - company: Manipal College of Dental Sciences
         position: Lecturer, Department of Oral and Maxillofacial Surgery
         location: Manipal, India
         start_date: 2017-05
         end_date: 2018-08
         highlights:
-          - "Taught clinical skills, supervised three student research projects"
+          - "Taught clinical skills and supervised three student research projects"
           - "Produced educational videos on medical emergencies and suturing techniques"
-
-    Grants:
-      - bullet: "[Current] Head and Neck Premalignant and Malignant Tumors -- UTMDACC Precancer Atlas Head & Neck Initiative"
-      - bullet: "[Current] Multiregional Cholangiocarcinoma -- Department of Defense RCRP Idea Award & NCI-R21"
-      - bullet: "[Past] A Novel Natural History Study of Medullary Thyroid Carcinoma -- NIH R01"
+          - "Developed a novel questionnaire-based protocol for TMJ disorder assessment"
 
     Publications:
-      - bullet: "John ER et al. Reconstructing oral cavity tumor evolution through brush biopsy. Scientific Reports 14(1):22591, 2024."
-      - bullet: "John ER et al. Genomic and spatial transcriptomic heterogeneity of multi-region cholangiocarcinoma. Journal of Hepatology (in preparation)."
-      - bullet: "Morris B, John ER et al. Tracking tumor evolution under treatment. Cancer Research (in preparation)."
-      - bullet: "Adzrago D, ..., John ER et al. Kratom use categories and mental health symptoms during COVID-19. Drug and Alcohol Dependence 239:109605, 2022."
-      - bullet: "Kapur N, ..., John ER. Quality of life in patients surgically treated for potentially malignant oral lesions. Indian Journal of Cancer 58(3):371-377, 2021."
-      - bullet: "Smriti K, John E et al. Intra-lesional medicaments for intra-osseous lesions: systematic review. J Int Soc Prev Community Dent 10(1):36, 2020."
-      - bullet: "Nivedita S, John ER et al. Prophylactic extraction of non-impacted third molars. Minerva Stomatologica 68(6):297-302, 2019."
-      - bullet: "John ER et al. Micro crack propagation after Reciproc and Waveone Gold systems. Int J Clin Dent 11:201-208, 2018."
+      - title: "Reconstructing oral cavity tumor evolution through brush biopsy"
+        authors:
+          - Evit John
+          - T. Lesluyes
+          - T.M. Baker
+          - M. Tarabichi
+          - A. Gillenwater
+          - J.R. Wang
+          - P. Van Loo
+          - X. Zhao
+        publisher: Scientific Reports
+        releaseDate: 2024
+        url: https://doi.org/10.1038/s41598-024-22591-x
+        summary: "Scientific Reports 14(1):22591"
 
-    Skills:
-      - label: Programming
-        details: "R (tidyverse, Bioconductor, Rcpp/C++, tidymodels), Python, Snakemake, Bash"
-      - label: Bioinformatics
-        details: "scDNA-seq CNV calling, bulk WES/RNA-seq, spatial transcriptomics, Mutect2, PyClone, ASCAT, CONIPHER"
-      - label: Statistics
-        details: "Bayesian inference, survival analysis, mixed models, machine learning (random forests, XGBoost)"
-      - label: HPC & Dev
-        details: "LSF/SLURM, Git/GitHub, Docker"
-      - label: Clinical Data
-        details: "EPIC, REDCap, registry curation"
-      - label: Version Control
-        details: "Git"  
+      - title: "Occurrence of Second Oral Potentially Malignant Disorder following Excision of Primary Lesion"
+        authors:
+          - A. Kudva
+          - M. Kumar
+          - E.R. John
+          - V. Dhara
+        publisher: Journal of Maxillofacial and Oral Surgery
+        releaseDate: 2023
+        url: https://link.springer.com/article/10.1007/s12663-022-01764-9
+        summary: "1-6"
+        
+      - title: "Kratom use categories and their associations with co-occurring substance use and mental health disorder symptoms during the COVID-19 pandemic"
+        authors:
+          - D. Adzrago
+          - E.O. Obekpa
+          - T.A. Suragh
+          - E.R. John
+          - P.G. Yeh
+          - K.R. Gallardo
+          - J.M. Wilkerson
+        publisher: Drug and Alcohol Dependence
+        releaseDate: 2022
+        url: https://doi.org/10.1016/j.drugalcdep.2022.109605
+        summary: "239:109605"
+
+      - title: "Occurrence of Second Oral Potentially Malignant Disorder following Excision of Primary Lesion"
+        authors:
+          - A. Kudva
+          - M. Kumar
+          - E.R. John
+          - V. Dhara
+        publisher: Journal of Maxillofacial and Oral Surgery
+        releaseDate: 2023
+        url: https://link.springer.com/article/10.1007/s12663-022-01764-9
+        summary: "1-6"
+
+      - title: "Evaluation of quality of life in patients surgically treated for potentially malignant oral lesions"
+        authors:
+          - N. Kapur
+          - N. Singla
+          - A. Kudva
+          - E.R. John
+        publisher: Indian Journal of Cancer
+        releaseDate: 2021
+        url: https://journals.lww.com/indianjcancer/fulltext/2021/58030/evaluation_of_quality_of_life_in_patients.9.aspx
+        summary: "58(3):371-377"
+
+      - title: "Intra-lesional medicaments for the management of intra-osseous lesions of maxilla and mandible"
+        authors:
+          - K. Smriti
+          - E. John
+          - K.C. Pentapati
+          - S. Gadicherla
+          - M. Bhagania
+        publisher: Journal of International Society of Preventive & Community Dentistry
+        releaseDate: 2020
+        url: https://journals.lww.com/jpcd/fulltext/2020/10010/intra_lesional_medicaments_for_the_management_of.5.aspx
+        summary: "10(1):36"
+
+      - title: "Prophylactic extraction of non-impacted third molars: is it necessary?"
+        authors:
+          - S. Nivedita
+          - E.R. John
+          - S. Acharya
+          - V.G. D'costa
+        publisher: Minerva Stomatologica
+        releaseDate: 2019
+        url: https://www.minervamedica.it/en/journals/minerva-dental-and-oral%20science/article.php?cod=R18Y2019N06A0297
+        summary: "68(6):297-302"
+
+      - title: "Evaluation of micro crack propagation in root canal dentin after the use of Reciproc and Waveone Gold Rotary systems"
+        authors:
+          - E.R. John
+          - B. Kadaikal
+          - S. Manocha
+          - S. Rao
+          - N.V. Ballal
+        publisher: International Journal of Clinical Dentistry
+        releaseDate: 2018
+        url: https://www.researchgate.net/publication/332873143_Evaluation_of_micro_crack_propagation_in_root_canal_dentin_after_the_use_of_reciproc_and_wave_one_gold_rotary_systems
+        summary: "11:201-208"
+
+      - title: "Evaluation of a new ergonomic position for the operator/clinicians for the extraction of mandibular right posterior molar teeth"
+        authors:
+          - S. Gadicherla
+          - K.C. Pentapati
+          - A. Singh
+          - E.R. John
+          - K. Smriti
+        publisher: Journal of International Oral Health
+        releaseDate: 2018
+        url: https://journals.lww.com/jioh/fulltext/2018/10010/evaluation_of_a_new_ergonomic_position_for_the.8.aspx
+        summary: "10.1 (2018): 36-39"
+
+      - title: "Oral and Maxillofacial approach for the treatment of Obstructive Sleep Apnea-Review"
+        authors:
+          - S. Gadicherla
+          - E.R. John
+          - K.C. Pentapati
+        publisher: Journal of Pharmaceutical Sciences and Research
+        releaseDate: 1/1/2017
+        url: https://journals.lww.com/jioh/fulltext/2018/10010/evaluation_of_a_new_ergonomic_position_for_the.8.aspx
+        summary: "9(6):840"
 
     Awards:
-      - bullet: "Delta Omega Honor Society, UTHealth School of Public Health, 2020"
-      - bullet: "Dr. David W. Martin Memorial Scholarship, UTHealth, 2020"
-      - bullet: "Schull Institute Summer Scholar, 2019"
-      - bullet: "Best Poster Award, 1st International Conclave of Health Technical Research, 2015"
-      - bullet: "Keynote Speaker, International Youth Summit, Yuva Varsha, 2013"
+      - title: Delta Omega Honor Society
+        awarder: UTHealth School of Public Health
+        date: 2020
+        summary: "Inducted into the Delta Omega Honorary Society in Public Health"
 
-    Leadership:
-      - bullet: "UTHealth Student Inter-council: Historian, SPH Representative, University Academic Council (2018-2020)"
-      - bullet: "President, MCODS Student Council, Manipal University (2015-2016)"
-      - bullet: "General Secretary, Manipal International Network of Education (2015-2016)"
-      - bullet: "National Officer of Medical Education, Medical Students Association of India (2013-2014)"
+      - title: Dr. David W. Martin Memorial Scholarship
+        awarder: UTHealth School of Public Health
+        date: 2020
+        summary: ""
+
+      - title: Schull Institute Summer Scholar
+        awarder: Schull Institute
+        date: 2019
+        summary: ""
+
+      - title: Best Poster Award
+        awarder: 1st International Conclave of Health Technical Research
+        date: 2015
+        summary: ""
+
+      - title: Keynote Speaker
+        awarder: International Youth Summit, Yuva Varsha
+        date: 2013
+        summary: ""
+
+    Skills:
+      - name: Programming
+        level: Expert
+        icon: fa-solid fa-code
+        keywords: "R (tidyverse, Bioconductor, Rcpp/C++), Python, Snakemake, Bash"
+
+      - name: Bioinformatics
+        level: Expert
+        icon: fa-solid fa-dna
+        keywords: "scDNA-seq CNV calling, bulk WES/RNA-seq, spatial transcriptomics, Mutect2, PyClone, ASCAT, CONIPHER"
+
+      - name: Statistics & ML
+        level: Expert
+        icon: fa-solid fa-chart-line
+        keywords: "Bayesian inference, survival analysis, mixed models, random forests, XGBoost"
+
+      - name: HPC & Dev
+        level: Proficient
+        icon: fa-solid fa-server
+        keywords: "LSF/SLURM, Git/GitHub, Docker"
+
+      - name: Clinical Data
+        level: Proficient
+        icon: fa-solid fa-database
+        keywords: "EPIC, REDCap, registry curation"
