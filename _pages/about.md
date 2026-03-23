@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: >
   PhD Candidate, Biostatistics · <a href="https://www.uth.edu/sph/" target="_blank">UTHealth School of Public Health</a><br>
