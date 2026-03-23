@@ -18,7 +18,7 @@ cv:
     summary:
       - "PhD Candidate in Biostatistics at UTHealth School of Public Health and Graduate Research Assistant at the Van Loo Lab, MD Anderson Cancer Center. My research focuses on cancer genomics, computational biology, and clinical translation — developing statistical and computational methods to understand tumor evolution, intratumoral heterogeneity, and clonal dynamics across multiple cancer types."
 
-    education:
+    Education:
       - institution: University of Texas Health Science Center at Houston (UTHealth)
         area: Biostatistics
         degree: PhD
@@ -47,7 +47,7 @@ cv:
           - "Manipal, India"
           - "President, MCODS Student Council (2015-2016)"
 
-    experience:
+    Experience:
       - company: MD Anderson Cancer Center
         position: Graduate Research Assistant, Van Loo Lab
         location: Houston, TX
@@ -99,12 +99,12 @@ cv:
           - "Taught clinical skills, supervised three student research projects"
           - "Produced educational videos on medical emergencies and suturing techniques"
 
-    grants:
+    Grants:
       - bullet: "[Current] Head and Neck Premalignant and Malignant Tumors -- UTMDACC Precancer Atlas Head & Neck Initiative"
       - bullet: "[Current] Multiregional Cholangiocarcinoma -- Department of Defense RCRP Idea Award & NCI-R21"
       - bullet: "[Past] A Novel Natural History Study of Medullary Thyroid Carcinoma -- NIH R01"
 
-    publications:
+    Publications:
       - bullet: "John ER et al. Reconstructing oral cavity tumor evolution through brush biopsy. Scientific Reports 14(1):22591, 2024."
       - bullet: "John ER et al. Genomic and spatial transcriptomic heterogeneity of multi-region cholangiocarcinoma. Journal of Hepatology (in preparation)."
       - bullet: "Morris B, John ER et al. Tracking tumor evolution under treatment. Cancer Research (in preparation)."
@@ -114,11 +114,7 @@ cv:
       - bullet: "Nivedita S, John ER et al. Prophylactic extraction of non-impacted third molars. Minerva Stomatologica 68(6):297-302, 2019."
       - bullet: "John ER et al. Micro crack propagation after Reciproc and Waveone Gold systems. Int J Clin Dent 11:201-208, 2018."
 
-    patents:
-      - bullet: "Specialized electronic toothbrushes for patients with cerebral palsy and motor dysfunctions (Provisional Patent No. 201841016406)"
-      - bullet: "Specialized device for debridement of pericoronal flap"
-
-    skills:
+    Skills:
       - label: Programming
         details: "R (tidyverse, Bioconductor, Rcpp/C++, tidymodels), Python, Snakemake, Bash"
       - label: Bioinformatics
@@ -129,15 +125,17 @@ cv:
         details: "LSF/SLURM, Git/GitHub, Docker"
       - label: Clinical Data
         details: "EPIC, REDCap, registry curation"
+      - label: Version Control
+        details: "Git"  
 
-    awards:
+    Awards:
       - bullet: "Delta Omega Honor Society, UTHealth School of Public Health, 2020"
       - bullet: "Dr. David W. Martin Memorial Scholarship, UTHealth, 2020"
       - bullet: "Schull Institute Summer Scholar, 2019"
       - bullet: "Best Poster Award, 1st International Conclave of Health Technical Research, 2015"
       - bullet: "Keynote Speaker, International Youth Summit, Yuva Varsha, 2013"
 
-    leadership:
+    Leadership:
       - bullet: "UTHealth Student Inter-council: Historian, SPH Representative, University Academic Council (2018-2020)"
       - bullet: "President, MCODS Student Council, Manipal University (2015-2016)"
       - bullet: "General Secretary, Manipal International Network of Education (2015-2016)"
